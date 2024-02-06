@@ -155,3 +155,9 @@ http://[2409:8087:2001:20:2800:0:df6e:eb24]/ott.mobaibox.com/PLTV/3/224/32212285
 
 #EXTINF:-1 ,苏州4K
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
+
+#EXTINF:-1 ,翡翠台
+https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
+
+#EXTINF:-1 ,凤凰资讯
+http://lhq-cctv.8866.org:18181/tsfile/live/1221_1.m3u8

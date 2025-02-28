@@ -34,7 +34,7 @@ def spider_source():
 
         # 生成数据格式
         while page <= page_count and number < counts:
-            url = engine_url + "?page=" + str(page) + "&s=" + group_addr
+            url = engine_url + "?page=" + str(page) + "&iptv=" + group_addr
             # 发起HTTP请求获取网页内容
             try:
                 response = requests.get(url, timeout=15)
@@ -49,7 +49,7 @@ def spider_source():
                 soup = BeautifulSoup(html_content, "html.parser")
 
                 # 查找所有class为"result"的<div>标签
-                result_divs = soup.find_all("div", class_="result")
+                result_divs = soup.find_all("div", class_="resultplus")
 
                 # 循环处理每个结果<div>标签
                 for result_div in result_divs:

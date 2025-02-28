@@ -58,7 +58,8 @@ def spider_source():
                     # 获取m3u8名称
                     channel_div = result_div.find("div", class_="channel")
                     if channel_div is not None:
-                        name_div = channel_div.find("div", style="float: left;")
+                        name_div = channel_div.find("div", class_="tip")
+                        # print(name_div)
                         if name_div is not None:
                             m3u8_name = name_div.text.strip()
                         else: 
@@ -70,7 +71,7 @@ def spider_source():
                             if counts/30 > page_count:
                                 page_count += 1
                             print(f"{current_time} 总页码数：{page_count}")
-
+                        print(f"{current_time} 第{page}页，频道名称：{m3u8_name}，地址：{m3u8_link}")
                         # 获取m3u8链接
                         m3u8_div = result_div.find("div", class_="m3u8")
                         if m3u8_div is not None:

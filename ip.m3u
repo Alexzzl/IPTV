@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml,https://epg.v1.mk/fy.xml"
 #EXTINF:-1,tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.v1.mk/logo/翡翠台.png" group-title="Judy「自用」",翡翠台4K
-https://video.mytvsuper.xyz/live/6b6010bfabd40dccd46e3102458c28e47b154bd513b8c872237ae6666b3911c0.php?token=283274678496084
+http://qjrhc.jydjd.top:2911/udp/224.1.100.121:11111
 #EXTINF:-1,tvg-id="凤凰卫视中文台" tvg-name="凤凰卫视中文台" tvg-logo="https://epg.v1.mk/logo/凤凰卫视中文台.png" group-title="Judy「自用」",鳳凰衛視中文台
 https://video.mytvsuper.xyz/live/e56f60dcd84ba1f885c57318a70e881894fa739b767e8da66a3b61cc0748d0a9.m3u8?token=283274678496084
 #EXTINF:-1,tvg-id="凤凰卫视资讯台" tvg-name="凤凰卫视资讯台" tvg-logo="https://epg.v1.mk/logo/凤凰卫视资讯台.png" group-title="Judy「自用」",鳳凰衛視資訊台
